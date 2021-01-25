@@ -1,6 +1,7 @@
 # react-error-boundaries
 Experiment with React error boundaries
 
+see live site here: [https://react-error-boundary-0791.netlify.app/](https://react-error-boundary-0791.netlify.app/)
 
 
 ## Getting Started with Create React App
