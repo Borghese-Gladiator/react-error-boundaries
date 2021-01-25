@@ -1,10 +1,13 @@
+import ReloadButton from './components/ReloadButton';
 import ErrorBoundary from './components/ErrorBoundary';
 import BuggyCounter from './components/BuggyCounter';
 import './App.css';
 
 function App() {
   return (
-    <div>
+    <div style={{
+      marginLeft: '40px'
+    }}>
       <p>
         <b>
           This is an example of error boundaries in React 16.
@@ -15,6 +18,7 @@ function App() {
         </b>
       </p>
       <hr />
+      <ReloadButton />
       <ErrorBoundary>
         <p>These two counters are inside the same error boundary. If one crashes, the error boundary will replace both of them.</p>
         <BuggyCounter />
